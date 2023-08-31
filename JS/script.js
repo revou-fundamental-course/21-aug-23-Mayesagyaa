@@ -21,7 +21,7 @@ function showSlides() {
 const nameSpan = document.getElementById("nameSpan");
 
 // Set the name you want to display
-const name = "Mayesa"; // Set the desired name here
+const name = "Iqbal"; // Set the desired name here
 
 // Update the text of the span element
 nameSpan.textContent = name;
