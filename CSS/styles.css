@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'Shantell Sans', cursive;
+  }
+
+/* Ini CSS untuk Haeder dan Navbar */
+header {
+    background: linear-gradient(to right, #d9dddc, #88807b);
+    color: rgb(57, 55, 55);
+    padding: 10px 0;
+    width: 100%;
+  }
+  
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .logo {
+    width: 100px;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-menu li {
+    margin-right: 20px;
+  }
+  
+  .navbar-menu a {
+    text-decoration: none;
+    color: #ffff;
+  }
+
+
+
+/* Ini CSS section 1 */
+#welcome {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .welcome-text {
+    text-align: start;
+    padding-left: 40px;
+    padding-bottom: 10px;
+  }
+  
+  .slide {
+    display: none;
+  }
+  
+  .slide img {
+    width: 1248px;
+    height: 500px;
+  }
+
+  .image-text {
+    position: absolute;
+    top: 80px;
+    left: 250px;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    white-space: nowrap;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.422);
+  }
+
+/* Ini CSS Section 2 */
+#achievement h2{
+    padding-left: 40px;
+  }
+  
+  .facilitation-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .facilitation {
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  .facilitation-icon {
+    width: 80px;
+    height: 80px;
+    background-color: #333;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .facilitation h3 {
+    margin-top: 0;
+  }
+  
+  .facilitation p {
+    color: #666;
+  }
+
+  .form-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+/* Ini CSS Message Input dan Output */
+#message-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 40px 0;
+}
+
+#message-form h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.form-container {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #88807b;
+  padding-left: 20PX;
+}
+
+#contact-form {
+  flex: 1;
+  padding-right: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="date"],
+#contact-form select,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #363636;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+#contact-form button[type="submit"] {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px 20px 10px 20px;
+  background-color: #363636;
+  color: #fff;
+  border-radius: 20PX;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  justify-content: center;
+}
+
+/* Output styles */
+.output {
+  flex: 1;
+  padding: 20px ;
+  padding-top: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 15px;
+  background-color: #BEBDB8;
+  margin-left: 20px; /* Margin untuk memberikan ruang antara form dan output */
+  
+}
+
+.output h3 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #fff;
+}
+
+.output p {
+  margin: 5px 0;
+  color: #fff;
+}
+
+/* Current time styles */
+#time {
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Style for individual output items */
+.output-item {
+  margin-bottom: 10px;
+}
+
+.output-label {
+  font-weight: bold;
+  color: #333;
+}
+
+.output-value {
+  color: #666;
+}
+
+  
+  /* Footer styles */
+  footer {
+    text-align: end;
+    padding: 10px;
+    background-color: #f4f4f4;
+  }
+
+
+  /* Media Queries */
+@media screen and (min-width: 768px) {
+  .profile-container {
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+  }
+}
+
+  
+  

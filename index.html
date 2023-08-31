@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <title>Your Mini Project</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+        <div class="logo"><img src="images/logo.png" style="width: 100px;"></div>
+        <ul class="navbar-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="profile.html">Our Profile</a></li>
+          <li><a href="#achievement">Achievement</a></li>
+          <li><a href="#contact">Message Us</a></li>
+        </ul>
+      </nav>
+  </header>
+
+  <section id="profile">
+        <div class="welcome-text">
+          <div></div>
+          <h2>Hi, <span id="nameSpan">Nama</span> Welcome To Website</h2>
+          <p>Ini adalah website latihan pertama!</p>
+        </div>
+    <div id="greetingMessage"></div>
+    <div class="slideshow-container">
+        <div class="slide">
+          <img src="images/img1.jpg" alt="Slide 1">
+        </div>
+        <div class="slide">
+          <img src="images/img2.jpg" alt="Slide 2">
+        </div>
+      </div>
+    </section>
+
+  <section id="achievement">
+    <h2>Our Facilitation</h2>
+  <!-- ... (other content) ... -->
+  <div class="facilitation-container">
+    <div class="facilitation">
+        <img src="images/safety.png" alt="">
+      <h3>Security</h3>
+      <p>The school's security is well-maintained and secure.</p>
+    </div>
+    <div class="facilitation">
+        <img src="images/komputer.png" alt="">
+      <h3>Computers</h3>
+      <p>School computers can be used by all students.</p>
+    </div>
+    <div class="facilitation">
+        <img src="images/clean.png" alt="">
+      <h3>Cleanliness</h3>
+      <p>Cleanliness is maintained due to the school's culture.</p>
+    </div>
+  </div>
+  </section>
+
+
+  <section id="message-form">
+    <h2>Message Us</h2>
+    <div class="form-container">
+      <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="birthdate">Birthdate:</label>
+        <input type="date" id="birthdate" name="birthdate" required>
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+      <div class="output">
+        <h3>Your Message:</h3>
+        <p><strong>Name:</strong> <span id="outputName"></span></p>
+        <p><strong>Birthdate:</strong> <span id="outputBirthdate"></span></p>
+        <p><strong>Gender:</strong> <span id="outputGender"></span></p>
+        <p><strong>Message:</strong> <span id="outputMessage"></span></p>
+        <p><strong>Current Time:</strong> <span id="time"></span></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>by Mayesa Agya Dwisa</p>
+  </footer>
+
+  <script src="JS/script.js" defer></script>
+</body>
+</html>
